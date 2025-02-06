@@ -41,6 +41,10 @@ footer p {
 
 .original {
     font-family: 'Times New Roman', Times, serif;
+    color: rgb(202, 183, 170);
+}
+.base {
+    font-family: 'Times New Roman', Times, serif;
     color: rgb(242, 210, 189);
 }
 
