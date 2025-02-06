@@ -1,0 +1,54 @@
+body {
+    font-family: 'Courier New', monospace;
+    background-color: rgb(0,128,128);
+}
+
+header {
+    font-family: Georgia, serif;
+    color: rgb(242, 210, 189);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.subheading {
+    font-family: Georgia, serif;
+    color: rgb(242, 210, 189);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.itallic {
+    font-style: italic;
+}
+
+footer p {
+    color: rgb(195, 141, 246);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#firstpar {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(242, 210, 189);
+}
+
+.purple
+ {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(195, 141, 246);
+}
+
+.original {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(242, 210, 189);
+}
+
+.yellow {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(253, 185, 39);
+}
+
+.bigger {
+    font-size: 20px;
+} 
