@@ -1,0 +1,44 @@
+body {
+    font-family: cursive;
+    background-color: rgb(62,101,137);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.wave {
+    width: 650px;
+    height: 400px;
+}
+
+header {
+    font-family: Georgia, serif;
+    color: rgb(242, 210, 189);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.subheading {
+    font-family: Georgia, serif;
+    color: rgb(242, 210, 189);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.white{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(242, 210, 189);
+}
+
+.questions{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(242, 210, 189);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.answers{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(242, 210, 189);
+    
+}
+
+footer p {
+    color: rgb(224,236,242);
+    text-shadow: 2px 2px 4px #000000;
+}
