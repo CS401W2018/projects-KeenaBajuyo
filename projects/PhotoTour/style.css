@@ -50,13 +50,19 @@ nav a {
 }
 
 .zurich {
-    width: 650px;
-    height: 400px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }
 
 .opera {
-    width: 650px;
-    height: 400px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
 }   
 
 .lucerne {
