@@ -7,13 +7,13 @@ body {
 
 header {
     font-family: Georgia, serif;
-    color: rgb(201, 239, 252);
+    color: rgb(255, 255, 240);
     text-shadow: 2px 2px 4px #000000;
 }
 
 .header {
     font-family: Georgia, serif;
-    color: rgb(201, 239, 252);
+    color: rgb(255, 255, 240);
     background:url('Switzflag.jpg') top right no-repeat;
     background-size: contain;
     text-shadow: 2px 2px 4px #000000;
@@ -21,7 +21,7 @@ header {
 
 nav a {
     font-family: Georgia, serif;
-    color: rgb(201, 239, 252);
+    color: rgb(255, 255, 240);
     text-shadow: 2px 2px 4px #000000;
 }
 
@@ -33,7 +33,7 @@ nav a {
 
 .subheading {
     font-family: Georgia, serif;
-    color: rgb(201, 239, 252);
+    color: rgb(255, 255, 240);
     text-shadow: 2px 2px 4px #000000;
 
 }
@@ -41,7 +41,7 @@ nav a {
 .mylist li {
     list-style: none;
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(201, 239, 252);
+    color: rgb(255, 255, 240);
     padding-left: 30px;
     background: url('cowwow.png') no-repeat left center;
     background-size: 20px 20px; 
@@ -92,7 +92,7 @@ nav a {
 
 footer p {
     font-family: 'Times New Roman', Times, serif;
-    color: rgb(201, 239, 252);
+    color: rgb(255, 255, 240);
     text-shadow: 2px 2px 4px #000000;
     text-shadow: 2px 2px 4px #000000;
 }
