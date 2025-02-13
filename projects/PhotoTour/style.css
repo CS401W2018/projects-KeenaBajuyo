@@ -49,53 +49,6 @@ nav a {
 
 }
 
-.zurich {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}
-
-.opera {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-}   
-
-.lucerne {
-    width: 650px;
-    height: 400px;
-}
-
-.mtpilatus {
-    width: 650px;
-    height: 400px;
-}
-
-.interlaken {
-    width: 650px;
-    height: 400px;
-}
-
-.zermatt {
-    width: 650px;
-    height: 400px;
-}
-
-.lauterbrunnen {
-    width: 650px;
-    height: 400px;
-}
-
-.paragliding {
-    width: 650px;
-    height: 400px;
-}
-
-
 footer p {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(255, 255, 240);
