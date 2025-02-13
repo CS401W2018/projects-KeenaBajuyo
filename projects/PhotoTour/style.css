@@ -14,7 +14,7 @@ header {
 .header {
     font-family: Georgia, serif;
     color: rgb(201, 239, 252);
-    background:url('Swissflag.jpg') top right no-repeat;
+    background:url('Switzflag.jpg') top right no-repeat;
     background-size: contain;
     text-shadow: 2px 2px 4px #000000;
 }
