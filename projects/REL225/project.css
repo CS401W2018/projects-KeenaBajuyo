@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('pines.jpg');
+    text-shadow: 2px 2px 4px #f3f3f3;
+    background-repeat: repeat;
+}
+header {
+    background-color: rgb(32,130,166);
+    color: rgb(255, 255, 240);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 10px 15px 0;
+    margin: 0 auto 25px auto; 
+    width: 80%;
+    overflow: visible;
+    text-align: center; 
+}
+
+header h1 {
+    font-family: Georgia, serif;
+    color: rgb(255, 255, 240);
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center; 
+}
+
+nav {
+    font-family: Georgia, serif;
+    color: rgb(255, 255, 240);
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center; 
+}
+
+.wave {
+    width: 495px;
+    border: thick solid #000;
+    text-align: center;
+    margin: auto;
+}
+
+.current {
+    font-family: Georgia, serif;
+    color: rgb(140, 14, 9);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.subheading {
+    font-family: Georgia, serif;
+    color: rgb(255, 255, 240);
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+.mylist li {
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 240);
+    padding-left: 30px;
+    background: url('cowwow.png') no-repeat left center;
+    background-size: 20px 20px; 
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+footer p {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 240);
+    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #000000;
+}
