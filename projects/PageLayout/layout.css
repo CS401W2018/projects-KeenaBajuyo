@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 212, 170);
+    line-height: 1.6;
+}
+
+.clear {
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 5px;
+    background-color: rgb(62, 101, 136);
+    border-bottom: thin solid rgb(252, 250, 250);
+    text-align: center;
+    color: rgb(247, 245, 241);
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+nav {
+    width: 100%;
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: rgb(51, 0, 255);
+    color: rgb(192, 152, 208);
+    text-decoration: underline;
+}
+
+header {
+    background-image: url('blackboard.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-origin: border-box; 
+    background-clip: content-box; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.h1 {
+    border: 2px solid black;
+    padding: 3px; 
+    border-radius: 5px; 
+    background-color: #ff71d9;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+#wrapper {
+    width: 850px;
+    margin: 0 auto;
+    background-color: rgb(235, 227, 217);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.amnse {
+    width: 30%;
+    height: auto;
+    border: thin solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    font-size: 10pt;
+    float: right;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    right: -10px;
+}
+
+.amnse img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.amnse figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 14px;
+    color: #333;
+}
+
+.floating {
+    float: right;
+}
+
+.right-text {
+    width: 60%;
+    float: right;
+    margin: 20px 0 20px 10px; 
+    text-align: justify;
+}
+
+footer {
+    background-color: rgb(217, 185, 155);
+    color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
