@@ -1,68 +1,117 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url('pines.jpg');
-    text-shadow: 2px 2px 4px #f3f3f3;
-    background-repeat: repeat;
-}
-header {
-    background-color: rgb(32,130,166);
-    color: rgb(255, 255, 240);
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 30px 10px 15px 0;
-    margin: 0 auto 25px auto; 
-    width: 80%;
-    overflow: visible;
-    text-align: center; 
+    background-color: rgb(235, 212, 170);
+    line-height: 1.6;
+    background-image: url(pinetrees.jpeg);
 }
 
-header h1 {
-    font-family: Georgia, serif;
-    color: rgb(255, 255, 240);
-    text-shadow: 2px 2px 4px #000000;
-    text-align: center; 
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(235, 227, 217);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background-image: url('forest.jpeg'); 
+    background-size: cover;
+    background-position: center; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav {
+    margin-top: 20px; /* Add margin to create space between the header and nav */
     font-family: Georgia, serif;
     color: rgb(255, 255, 240);
     text-shadow: 2px 2px 4px #000000;
     text-align: center; 
 }
 
-.wave {
-    width: 495px;
-    border: thick solid #000;
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 5px;
+    background-color: rgb(19, 105, 35);
+    border-bottom: thin solid rgb(252, 250, 250);
     text-align: center;
-    margin: auto;
+    color: rgb(247, 245, 241);
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: uppercase;
 }
 
-.current {
-    font-family: Georgia, serif;
-    color: rgb(140, 14, 9);
-    text-shadow: 2px 2px 4px #000000;
+nav a:hover {
+    background-color: rgb(51, 0, 255);
+    color: rgb(192, 152, 208);
+    text-decoration: underline;
 }
 
-.subheading {
-    font-family: Georgia, serif;
-    color: rgb(255, 255, 240);
-    text-shadow: 2px 2px 4px #000000;
-
+main {
+    display: flex;
+    justify-content: space-between;
 }
 
-.mylist li {
-    list-style: none;
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.content video {
+    width: 95%;
+    height: auto; /* Maintain the aspect ratio */
+    padding-right: 1px; /* Add right padding */
+    border: 20px solid #ccc; /* Add a border */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a shadow */
+    margin-top: 5px; /* Move the image lower */
+    max-height: 400px; 
+}
+
+.media-right {
+    width: 45%; /* Adjust width to fit better within the wrapper */
+    padding: 20px;
+    font-size: 10pt;
+    text-align: center;
+    margin-left: 10px; /* Smaller margin to fit within the wrapper */
+}
+
+.media-right img {
+    width: 100%; /* Make the image take up the full width of the figure */
+    height: auto; /* Maintain the aspect ratio */
+    padding-right: 1px; /* Add right padding */
+    border: 20px solid #ccc; /* Add a border */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a shadow */
+    margin-top: 50px; /* Move the image lower */
+    max-height: 400px; 
+}
+
+.media-right figure {
+    margin-bottom: 20px;
+}
+
+.media-right h2 {
+    margin-top: 20px; /* Add margin to create space between the image and text */
+    font-size: 22px; /* Increase the font size */
+    color: #333;
+}
+
+footer {
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(255, 255, 240);
-    padding-left: 30px;
-    background: url('cowwow.png') no-repeat left center;
-    background-size: 20px 20px; 
-    text-shadow: 2px 2px 4px #000000;
-
-}
-
-footer p {
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 240);
-    text-shadow: 2px 2px 4px #000000;
     text-shadow: 2px 2px 4px #000000;
 }

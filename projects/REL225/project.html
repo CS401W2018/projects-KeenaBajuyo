@@ -3,40 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Model</title>
+    <title>The First Restoration</title>
     <link rel="stylesheet" href="project.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <h1>Midterm Project</h1>
-    </header>
-    <nav><span class ="nav a"><strong>My profile </strong>|<strong> Portfolio |</strong> <strong>Contact</strong> </span>
-    </nav>
-    <main>
-        <h1><span class="header h1"></span>Joseph Smith First Prayer</h1>
-        <figure class="wave">
-            <img src="smith.jpg" alt="Joseph Smith in Palymra ">
-            <figcaption>Joseph Smith in Palymra </figcaption>
-        </figure>
+    <div id="wrapper">
+        <header>
+            <h1>The First Restoration</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="content">
+                <h2>Joseph Smith's First Vision</h2>
+                <p>The First Vision refers to the event in the spring of 1820 when Joseph Smith, a young boy living in Palmyra, New York, prayed to know which church to join. In response to his prayer, he experienced a divine vision in which God the Father and Jesus Christ appeared to him. They told him that none of the existing churches were correct and that he should not join any of them. This vision marked the beginning of the restoration of the gospel of Jesus Christ and led to the founding of The Church of Jesus Christ of Latter-day Saints. It is considered a foundational event in the history of the church.</p>
+                <video controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </section>
+            <aside class="media-right">
+                <figure>
+                    <img src="prayer.jpeg" alt="Joseph Smith in Palmyra">
+                    <figcaption>Joseph Smith in Palmyra</figcaption>
+                </figure>
+                <h2>What does the restoration mean to you?</h2>
+            </aside>
+        </main>
         <hr>
-        <h1><span class="header h1"></span>Questions</h1>
-        <h2>What is the difference between block tags and inline tags?</h2>
-        <p><strong>Block tag</strong> has 100% width. The height is as height as the content. Those can change the size with CSS. (Ex. Div, Header, Nav, Footer, Main, H1-6, P, UL, OL, Li, etc.)</p>
-        <p><strong>Inline tags</strong> have limitations in the width they take up, mostly only engaging the space necessary for their content. They do not start on a new line and can sit next to other inline elements. Examples of inline tags include (span, a, img and em.) </p>
-        <h2>What is the margin, border, and padding?</h2>
-        <p><strong>Margin</strong> is the outside (around) box (how much space you want around the box)</p>
-        <p><strong>Padding</strong> is the inside of the box (how much space you want between text and border)</p>
-        <p><strong>Border</strong> is a line around the box. </p>
-        <h2>What are units of measurement you can use in CSS?</h2>
-        <p><strong>Absolute units </strong>(px, cm, mm, in, pt, pc.) </p>
-        <p><strong>Relative units </strong>(%, em, rem, vw,vh,vmin,vmax.)</p>
-        <h2>When would you use a figure tag?</h2>
-        <p>We use <strong>Figure Tag</strong> to group images, diagrams, or other illustrations alongside their caption for finer organization and availability in your HTML document.</p>
-    </main>
-    <hr>
-    <footer>
-        <p>&copy; 2025 Keena Bajuyo</p>
-    </footer>
+        <footer>
+            <p>&copy; 2025 Keena Bajuyo</p>
+        </footer>
+    </div>
 </body>
 </html>
