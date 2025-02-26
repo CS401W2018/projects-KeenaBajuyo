@@ -71,14 +71,26 @@ main {
     padding: 20px;
 }
 
-.content video {
-    width: 95%;
+.helaman-figure {
+    float: left; 
+    margin-right: 20px; 
+    margin-left: -70px; 
+    text-align: center;
+}
+
+.helaman-figure img {
+    width: 70%; 
+    height: auto;
+    border: 10px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+video {
+    width: 50%; /* Make the video take up the full width of its container */
     height: auto; /* Maintain the aspect ratio */
-    padding-right: 1px; /* Add right padding */
-    border: 20px solid #ccc; /* Add a border */
+    border: 15px solid #ccc; /* Add a border */
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a shadow */
-    margin-top: 5px; /* Move the image lower */
-    max-height: 400px; 
+    margin-top: 20px; /* Add some space above the video */
 }
 
 .media-right {
@@ -104,10 +116,79 @@ main {
 }
 
 .media-right h2 {
-    margin-top: 20px; /* Add margin to create space between the image and text */
-    font-size: 22px; /* Increase the font size */
+    margin-top: 20px; 
+    font-size: 22px; 
     color: #333;
 }
+
+.missionaries-figure {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.missionaries-figure img {
+    width: 70%; 
+    height: auto;
+    border: 30px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.video-item {
+    flex: 1;
+    text-align: center;
+    max-width: 45%; 
+}
+
+.video-item h2 {
+    margin-bottom: 10px;
+}
+
+.video-item video {
+    width: 100%;
+    height: auto;
+    border: 5px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.danejerz-figure {
+    display: block; 
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.danejerz-figure img {
+    width: 70%; 
+    height: auto;
+    border: 40px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.moving {
+    position: fixed;
+    top: 350px;
+    right: 150px;
+}
+
+.map img {
+    width: 320%;
+    border: 10px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 30px; /* Adjust this value to move it closer vertically */
+    margin-left: -650px; /* Adjusted to move it closer horizontally */
+}
+.clear {
+    clear: both;
+}   
 
 footer {
     text-align: center;
