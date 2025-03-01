@@ -104,17 +104,18 @@ footer {
 }
 
 .masslinks a {
-    color: white;
+    color: #000;
     text-decoration: none;
+    font-weight: bold;
     display: block;
-    background-color: #000;
-    padding: 15px;
-    border-radius: 4px;
+    padding: 15px 25px; 
+    border: 2px solid #000; 
+    border-radius: 4px; 
 }
 
 .masslinks a:hover {
     color: #000;
-    background-color: white;
+    background-color: #0b3f69;
 }
 
 .disclaimer {
