@@ -196,6 +196,12 @@ footer {
     color: rgb(255, 255, 240);
     text-shadow: 2px 2px 4px #000000;
 }
+h4 {
+    background-color: rgb(180, 215, 223); 
+    border: 20px solid #ccc; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
 
 h4 {
     background-color: rgb(180, 215, 223); 
@@ -204,21 +210,33 @@ h4 {
     border-radius: 5px; 
 }
 
- .centered-text {
-    background-color: rgba(195, 195, 177, 0.3); /* Light yellow background with some transparency */
-    padding: 10px; /* Add some padding for better spacing */
-    border-radius: 5px; /* Optional: Add rounded corners */
-    text-align: center; /* Center the text */
-    width: 80%; /* Adjust the width as needed */
-    margin: 0 auto; /* Center horizontally */
+h5 {
+    background-color: rgb(180, 215, 223); 
+    border: 20px solid #ccc; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.centered-text {
+    background-color: rgba(195, 195, 177, 0.3); 
+    padding: 1px;
+    border-radius: 5px; 
+    text-align: center; 
+    width: 80%; 
+    position: relative; 
+    top: 40px; 
+    margin-left: auto; 
+    margin-right: 0; 
+    right: -220px; 
 }
 
 .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center vertically */
-    margin-top: 100px; /* Adjust the margin to position it lower above the footer */
+    justify-content: center; 
+    margin-top: 100px; 
     position: relative;
-    height: 200px; /* Adjust the height to ensure enough space for centering */
+    height: 200px; 
+    padding: 20px;
 }
