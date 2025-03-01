@@ -28,7 +28,7 @@ header {
 }
 
 nav {
-    margin-top: 20px; /* Add margin to create space between the header and nav */
+    margin-top: 20px; 
     font-family: Georgia, serif;
     color: rgb(255, 255, 240);
     text-shadow: 2px 2px 4px #000000;
@@ -86,28 +86,28 @@ main {
 }
 
 video {
-    width: 50%; /* Make the video take up the full width of its container */
-    height: auto; /* Maintain the aspect ratio */
-    border: 15px solid #ccc; /* Add a border */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a shadow */
-    margin-top: 20px; /* Add some space above the video */
+    width: 50%; 
+    height: auto; 
+    border: 15px solid #ccc; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); 
+    margin-top: 20px; 
 }
 
 .media-right {
-    width: 45%; /* Adjust width to fit better within the wrapper */
+    width: 45%; 
     padding: 20px;
     font-size: 10pt;
     text-align: center;
-    margin-left: 10px; /* Smaller margin to fit within the wrapper */
+    margin-left: 10px; 
 }
 
 .media-right img {
-    width: 100%; /* Make the image take up the full width of the figure */
-    height: auto; /* Maintain the aspect ratio */
-    padding-right: 1px; /* Add right padding */
-    border: 20px solid #ccc; /* Add a border */
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Add a shadow */
-    margin-top: 50px; /* Move the image lower */
+    width: 100%; 
+    height: auto; 
+    padding-right: 1px; 
+    border: 20px solid #ccc; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); 
+    margin-top: 50px; 
     max-height: 400px; 
 }
 
@@ -183,8 +183,8 @@ video {
     width: 320%;
     border: 10px solid #ccc;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    margin-top: 30px; /* Adjust this value to move it closer vertically */
-    margin-left: -650px; /* Adjusted to move it closer horizontally */
+    margin-top: 30px; 
+    margin-left: -650px; 
 }
 .clear {
     clear: both;
