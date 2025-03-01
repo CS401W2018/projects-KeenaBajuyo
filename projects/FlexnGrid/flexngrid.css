@@ -20,8 +20,8 @@ header {
 
 header h1 {
     color: white;
+    
 }
-
 
 nav {
     display: flex;
@@ -48,7 +48,7 @@ nav a:hover {
 
 .inside {
     display: flex;
-    flex-direction: row-reverse;
+
 }
 
 aside {
@@ -58,7 +58,7 @@ aside {
     padding: 25px;
     display: flex; 
     flex-direction: column; 
-    justify-content: center; 
+    justify-content: center;
 }
 
 main {
@@ -69,7 +69,7 @@ main {
 
 .cardprofile {
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
@@ -103,7 +103,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    margin-top: 10px;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 .masslinks a {
@@ -112,8 +113,9 @@ footer {
     font-weight: bold;
     display: block;
     padding: 15px 25px; 
-    border: 2px solid #000; 
-    border-radius: 4px; 
+    background-color: #f4f4f4;
+    border: 2px solid #000;
+    border-radius: 4px;
 }
 
 .masslinks a:hover {
@@ -122,5 +124,6 @@ footer {
 }
 
 .disclaimer {
+    margin-top: 20px;
     color: #360a89;
 }
