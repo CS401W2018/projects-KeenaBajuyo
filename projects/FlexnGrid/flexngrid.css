@@ -52,10 +52,13 @@ nav a:hover {
 }
 
 aside {
-    text-align: justify;
+    text-align: center; 
     width: 25%;
     background-color: #4682b4;
     padding: 25px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
 }
 
 main {
