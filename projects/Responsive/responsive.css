@@ -56,7 +56,6 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    height: px;
     margin-top: 10px;
 }
 
@@ -125,8 +124,7 @@ footer {
     }
 }
 
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) and (min-width: 500px) {
     .content {
         flex-direction: column;
     }
@@ -163,8 +161,6 @@ footer {
     .sidebar {
         order: 1;
     }
-
-
 }
 
 @media print {
