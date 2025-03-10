@@ -6,3 +6,8 @@ body {
 .table {
     background-color: turquoise;
 }
+
+
+border {
+    border: 1px solid black;
+}
