@@ -1,13 +1,65 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(213, 190, 213);
+    background-color: rgb(219,208,216);
 }
 
-.table {
-    background-color: turquoise;
-}
-
-
-border {
+.schedule {
     border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px rgba(30, 30, 30, 0.5);
+    caption-side: bottom;
+    border-spacing: 0px;
+    border-collapse: collapse;
 }
+
+.schedule tr {
+    border: thin solid black;  
+    padding: 10px; 
+    background-color: rosybrown;
+    border-bottom: thin solid black;
+}
+
+.schedule th{
+    border: thin solid black;  
+    padding: 10px; 
+    border-bottom: thin solid black;
+}
+
+.schedule td {
+    border: thin solid black;
+    background-color: rgb(128,0,128);  
+    padding: 10px; 
+}
+
+.schedule thead tr {
+    background-color: rgb(255,144,172);
+    color: aliceblue;
+}
+
+.schedule tbody tr:nth-child(odd) {
+    background-color: rgb(71, 80, 22);
+    color: aliceblue;
+}
+
+.schedule tbody tr:nth-child(even) {
+    background-color: rgb(49, 222, 27);
+    color: aliceblue;
+}
+
+.schedule tfoot tr {
+    background-color: rgb(255,144,172);
+    color: aliceblue;
+}
+
+main p::first-letter {
+    font-size: 1.5em;
+    color: rgb(71, 80, 22);
+    font-weight: bold;
+}
+
+.winter {
+    background-color: rgb(38, 38, 120);
+}
+
+.spring {
+    background-color: rgb(255,57,58);
+}   

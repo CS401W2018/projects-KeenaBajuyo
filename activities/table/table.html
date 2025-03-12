@@ -11,7 +11,8 @@
         <h1>Tables</h1>
     </header>
     <main>
-        <table border="1">
+        <table class="schedule">
+            <caption>Course Schedule</caption>
             <thead>
                 <tr>
                     <th>Department</th>
@@ -23,6 +24,9 @@
                 </tr>
             </thead>
             <tbody>
+                <tr>
+                    <th colspan="6" class="winter"> Winter 2025</th>
+                </tr>
                 <tr>
                     <td>CS</td>
                     <td>140</td>
@@ -56,7 +60,7 @@
                     <td>3</td>
                 </tr>
                 <tr>
-                    <th colspan="6">Spring 2025</th>
+                    <th colspan="6" class="spring">Spring 2025</th>
                 </tr>
                 <tr>
                     <td>CS</td>
@@ -88,7 +92,15 @@
             <li><strong>tbody:</strong> Data</li>
             <li><strong>tfoot:</strong> Averages, totals, summary of data</li>
         </ul>
+        <hr>
+        <h1>Engagement - Tables pt.2 </h1>
+        <h2>Questions:</h2>
+        <h3>Why don't we use the border attribute?</h3>
+        <p> When we use the border attribute, there is no way for us to undo it. It will cause validation errors.</p>
+        <h3>What is the easiest way to color every other row a different color?</h3>
+        <p>A fast way to select a row automatically and change colors is by using the CSS pseudo-class :nth-child(odd). It will add color to every other row. You may also use a class name and then apply that color in the CSS.</p>
     </main>
+    <hr>
     <footer>
         <p>&copy; 2025 Keena Bajuyo</p>
     </footer>
