@@ -6,7 +6,7 @@ body {
 }
 
 header, nav, footer {
-    background-color: #552583; /* Lakers purple */
+    background-color: #552583; 
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -64,7 +64,7 @@ main {
 .schedule caption {
     font-size: 1.5em;
     margin-bottom: 0.5em;
-    color: #552583; /* Lakers purple */
+    color: #552583; 
     font-weight: bold;
 }
 
@@ -75,8 +75,8 @@ main {
 }
 
 .schedule thead th {
-    background-color: #FDB927; /* Lakers gold */
-    color: #552583; /* Lakers purple */
+    background-color: #FDB927; 
+    color: #552583; 
     text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -90,14 +90,14 @@ main {
 }
 
 .schedule tfoot th, .schedule tfoot td {
-    background-color: #FDB927; /* Lakers gold */
-    color: #552583; /* Lakers purple */
+    background-color: #FDB927; 
+    color: #552583; 
     font-weight: bold;
 }
 
 .team {
-    background-color: #552583; /* Lakers purple */
-    color: #FDB927; /* Lakers gold */
+    background-color: #552583; 
+    color: #FDB927; 
     text-align: center;
     font-size: 1.2em;
     font-weight: bold;
@@ -112,7 +112,7 @@ main {
 }
 
 .citation a {
-    color: #552583; /* Lakers purple */
+    color: #552583; 
     text-decoration: none;
     font-weight: bold;
 }
