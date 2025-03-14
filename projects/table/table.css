@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-color: rgb(219, 208, 216);
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, footer {
+    background-color: #552583; /* Lakers purple */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+main {
+    flex: 3;
+    padding: 1em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 1em;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.schedule {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.schedule caption {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #552583; /* Lakers purple */
+    font-weight: bold;
+}
+
+.schedule th, .schedule td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.schedule thead th {
+    background-color: #FDB927; /* Lakers gold */
+    color: #552583; /* Lakers purple */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.schedule tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.schedule tbody tr:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+.schedule tfoot th, .schedule tfoot td {
+    background-color: #FDB927; /* Lakers gold */
+    color: #552583; /* Lakers purple */
+    font-weight: bold;
+}
+
+.team {
+    background-color: #552583; /* Lakers purple */
+    color: #FDB927; /* Lakers gold */
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.citation {
+    font-size: 0.9em;
+    color: #333;
+    margin-top: 10px;
+}
+
+.citation a {
+    color: #552583; /* Lakers purple */
+    text-decoration: none;
+    font-weight: bold;
+}
