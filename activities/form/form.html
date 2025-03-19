@@ -10,43 +10,56 @@
 <body>
     <header><h1>Web Design</h1></header>
     <main>
-        <form action="processing.html" method="post">
-            <div class="form-row">
-                <label for="fullname">Full Name:</label>
-                <input type="text" name="fullname" placeholder="Full Name" required="required">
-            </div>
-            <div class="form-row">
-                Email: <input type="email" name="email" value="bajuyokeena@gmail.com" id="email">
-            </div>
-            <div>
-                <label for="pass">Password:</label>
-                <input type="password" name="password" id="pass"placeholder="Password">
-            </div>
-            <div>
-                <label for="pass2">Confirm Password:</label>
-                <input type="password" name="password2" id="pass2" placeholder="Confirm Password">
-            </div>
-            <div>
-                <label for="state">State:</label>
-                <select name="state" id="state">
-                    <option value="blank"></option>
-                    <option value="CA">California</option>
-                    <option value="NV">Nevada</option>
-                    <option value="OR">Oregon</option>
-                    <option value="WA">Washington</option>
-                    <option value="HI" selected>Hawaii</option>
-                </select>
-            </div>
-            <div>
-                <div>Year in School</div>
-                <label><input type="radio" name="year" value="freshman" id="year">Freshman</label>
-                <label><input type="radio" name="year" value="sophomore" id="year">Sophomore</label>
-                <label><input type="radio" name="year" value="junior" id="year">Junior</label>
-                <label><input type="radio" name="year" value="senior" id="year">Senior</label>
-            </div>
-            <div>
-                <input type="submit" value="Submit">
-            </div>
+        <form action="processing.html" method="get">
+            <fieldset>
+                <legend>Account Info</legend>
+                <div class="form-row">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" name="fullname" placeholder="Full Name" required="required">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" value="keena1024@go.byuh.edu" id="email"> 
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="password" id="pass"placeholder="Password">
+                </div>
+                <div class="form-row">
+                    <label for="pass2">Confirm Password:</label>
+                    <input type="password" name="password2" id="pass2" placeholder="Confirm Password">
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank"></option>
+                        <option value="CA">California</option>
+                        <option value="NV">Nevada</option>
+                        <option value="OR">Oregon</option>
+                        <option value="WA">Washington</option>
+                        <option value="HI" selected>Hawaii</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer">Year in School</div>
+                    <label><input type="radio" name="year" value="freshman">Freshman</label>
+                    <label><input type="radio" name="year" value="sophomore"checked>Sophomore</label>
+                    <label><input type="radio" name="year" value="junior">Junior</label>
+                    <label><input type="radio" name="year">Senior</label>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="agree" value="agree" id="agree" checked>Remember Me</label>   
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit">
+                </div>
+            </fieldset>
         </form>
         <hr>
         <h1>Engagement - Form</h1>
@@ -56,6 +69,11 @@
         <p>The "method" attribute specifies the HTTP method (GET or POST) to be used when sending form-data.</p>
         <h3>What is the difference between a "POST" and a "GET"?</h3>
         <p>GET requests data from a specified resource, while POST submits data to be processed to a specified resource.</p>
+        <h1>Engagement - Form Styling </h1>
+        <h3>What are different ways to style your form?</h3>
+        <p>Some ways to style your form are by using CSS, Bootstrap, or JavaScript. However, in our class, the elements mostly used were fieldset, form, and legend.</p>
+        <h3>What is the difference between "padding" and "margin"?</h3>
+        <p>Padding is the space inside the border, while margin is the space outside the border.</p>
     </main>
     <hr>
     <footer>

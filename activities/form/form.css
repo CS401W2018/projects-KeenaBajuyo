@@ -1,3 +1,78 @@
 body {
-    background-color: rgb(185, 148, 199);
+    background-color: rgb(216, 192, 225);
+}
+
+fieldset {
+    background-color: turquoise;
+}
+
+legend {
+    background-color: antiquewhite;
+    color: black;
+    padding: 20px;
+}
+
+.form-row input:not([type="submit"]) {
+    padding:5px;
+    border-radius: 5px;
+    background-color: rgb(239, 235, 100);
+}
+
+.form-row input:not([type="submit"]):focus {
+    background-color: rgb(122, 77, 184);
+}
+
+.form-row input[type="submit"] {
+    padding:10px;
+    background-color: antiquewhite;
+    color:black;
+    font-size: 24px;
+}
+
+.form-row {
+    display: flex;
+    gap:10px;
+    margin:10px 0;
+}
+
+.radio-row {
+    display: flex;
+    gap:10px;
+    margin:10px 0;
+}
+
+.form-row label {
+    width: 150px;
+    text-align: right;
+}
+
+.form-spacer {
+   width: 150px;
+   text-align: right;
+}
+
+@media ONLY screen and (max-width: 600px) {
+    .form-row {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        margin:10px 0;
+    }
+
+    .radio-row {
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        margin:10px 0;
+    }
+
+    .form-row label {
+        width: 100%;
+        text-align: left;
+    }
+
+    .form-spacer {
+        width: 100%;
+        text-align: left;
+    }
 }
