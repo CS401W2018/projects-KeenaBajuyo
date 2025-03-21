@@ -1,0 +1,97 @@
+body {
+    background-color: #2e003e;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #ff007f;
+    color: white;
+    text-align: center;
+    padding: 16px 0;
+    font-size: 24px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+main {
+    padding: 32px;
+}
+
+fieldset {
+    background-color: #d8b4e2;
+    border: 1px solid #ff007f;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+legend {
+    background-color: #00e5ff;
+    color: #2e003e;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.form-row, .radio-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.form-row label, .form-spacer {
+    width: 150px;
+    text-align: right;
+}
+
+.form-row input:not([type="submit"]), textarea, select {
+    flex: 1;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: 1px solid #ff007f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-row input:not([type="submit"]):focus, textarea:focus, select:focus {
+    background-color: #ff00ff;
+}
+
+.form-row input[type="submit"], button {
+    padding: 10px;
+    background-color: #ff007f;
+    color: white;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-row input[type="submit"]:hover, button:hover {
+    background-color: #ff00ff;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    width: auto;
+    margin-right: 8px;
+
+}
+
+@media (max-width: 600px) {
+    .form-row, .radio-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-row label, .form-spacer {
+        width: 100%;
+        text-align: left;
+    }
+
+    .form-row input[type="submit"], button {
+        width: 100%;
+        padding: 16px;
+    }
+}

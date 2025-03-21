@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header><h1>CREATE AN ACCOUNT</h1></header>
+    <main>
+        <form action="processing.html" method="get">
+            <fieldset>
+                <legend>Account Info</legend>
+                <div class="form-row">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" value="keena1024@go.byuh.edu">
+                </div>
+                <div class="form-row">
+                    <label for="phone">Phone Number:</label>
+                    <input type="phone" name="phone" id="phone" placeholder="Phone #">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="password" id="pass" placeholder="Password">
+                </div>
+                <div class="form-row">
+                    <label for="pass2">Confirm Password:</label>
+                    <input type="password" name="password2" id="pass2" placeholder="Confirm Password">
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="agree" value="agree" id="agree" checked>Remember Me</label>   
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank">Select a state</option>
+                        <option value="CA">California</option>
+                        <option value="NV">Nevada</option>
+                        <option value="OR">Oregon</option>
+                        <option value="WA">Washington</option>
+                        <option value="HI" selected>Hawaii</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer">Gender</div>
+                    <label><input type="radio" name="gender" value="male">Male</label>
+                    <label><input type="radio" name="gender" value="female" checked>Female</label>
+                    <label><input type="radio" name="gender" value="custom">Custom</label>
+                </div>
+                <div class="form-row">
+                    <label for="Age">Age:</label>
+                    <input type="age" name="age" id="age" placeholder="Age">
+                </div>
+                <div class="form-row">
+                    <label for="Job">Job:</label>
+                    <input type="job" name="job" id="job" placeholder="Job">
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="agree" value="agree" id="agree" checked> I agree to Terms and Conditions</label>   
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>&copy; 2025 Keena bajuyo</footer>
+</body>
+</html>
