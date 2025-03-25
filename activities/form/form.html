@@ -10,7 +10,7 @@
 <body>
     <header><h1>Web Design</h1></header>
     <main>
-        <form action="processing.html" method="get">
+        <form action="processing.html" method="get" id="myForm">
             <fieldset>
                 <legend>Account Info</legend>
                 <div class="form-row">
@@ -74,10 +74,39 @@
         <p>Some ways to style your form are by using CSS, Bootstrap, or JavaScript. However, in our class, the elements mostly used were fieldset, form, and legend.</p>
         <h3>What is the difference between "padding" and "margin"?</h3>
         <p>Padding is the space inside the border, while margin is the space outside the border.</p>
+        <h1>Engagement - Form Processing with JavaScript</h1>
+        <h3>What is JavaScript? How did it get its name?</h3>
+        <p>JavaScript is a programming language that enables interactive web pages. It was originally named Mocha, then LiveScript, and finally JavaScript.</p>
+        <h3>What are the two ways you can run JavaScript?</h3>
+        <p>JavaScript can be run in the browser or on the server, specifically in the DOM and Node.js (Express.js). </p>
+        <h3>What was the most popular front-end js library?</h3>
+        <p>jQuery was the most popular front-end js library.</p>
+        <h3>What is the most popular front-end js library today?</h3>
+        <p>React is the most popular front-end js library today.</p>
     </main>
     <hr>
     <footer>
         <p>&copy; 2025 Keena Bajuyo</p>
     </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event){
+            event.preventDefault();
+            alert("Form Submitted");
+
+            const fullname = document.getElementById('fullname').value;
+            const email = document.getElementById('email').value;
+            const pass = document.getElementById('pass').value;
+            const pass2 = document.getElementById('pass2').value;
+            console.log(fullname);
+
+            const formData = {
+                fullname: fullname,
+                email: email,
+                pass: pass,
+                pass2: pass2
+            };
+            console.log(formData);
+        });
+    </script>
 </body>
 </html>
