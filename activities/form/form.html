@@ -83,29 +83,52 @@
         <p>jQuery was the most popular front-end js library.</p>
         <h3>What is the most popular front-end js library today?</h3>
         <p>React is the most popular front-end js library today.</p>
+        <h1>Engagement - Form Processing with AJAX</h1>
+        <h3>What is AJAX?</h3>
+        <p>AJAX is a technique for creating fast and dynamic web pages. It allows web pages to be updated asynchronously by exchanging small amounts of data with the server behind the scenes.</p>
+        <h3>Why do you put your JS Code in a separate file?</h3>
+        <p>Putting JS code in a separate file allows for better organization and easier maintenance. It also allows for better performance and caching.</p>
     </main>
     <hr>
     <footer>
         <p>&copy; 2025 Keena Bajuyo</p>
     </footer>
     <script>
-        document.getElementById('myForm').addEventListener('submit',function(event){
-            event.preventDefault();
-            alert("Form Submitted");
+        document.getElementById('myForm').addEventListener('submit',function(event){event.preventDefault();
 
             const fullname = document.getElementById('fullname').value;
             const email = document.getElementById('email').value;
             const pass = document.getElementById('pass').value;
             const pass2 = document.getElementById('pass2').value;
-            console.log(fullname);
+            if (!fullname || !email || !pass || !pass2) {
+                alert('This tags cannot be empty');
+                return;
+            }
+            if (pass !== pass2) {
+                alert('Passwords do not match');
+                return;
+            }
 
             const formData = {
                 fullname: fullname,
                 email: email,
-                pass: pass,
-                pass2: pass2
+                password: document.getElementById('pass').value,
+                state: document.getElementById('state').value,
+                remember: document.getElementById('agree').checked,
             };
             console.log(formData);
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET", "submit.json", true);
+            xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    alert('Form submitted successfully');
+                } else if (xhr.readyState === 4) {
+                    alert('Form submission failed');
+                }
+            };
+            xhr.send(JSON.stringify(formData));
+            alert('Success: ${fullname} ${email} ${pass} ${pass2}');
         });
     </script>
 </body>

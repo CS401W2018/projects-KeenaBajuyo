@@ -1,9 +1,9 @@
 body {
-    background-color: rgb(216, 192, 225);
+    background-color: rgb(215, 190, 223);
 }
 
 fieldset {
-    background-color: turquoise;
+    background-color: rgb(105, 163, 211);
 }
 
 legend {
@@ -15,11 +15,11 @@ legend {
 .form-row input:not([type="submit"]) {
     padding:5px;
     border-radius: 5px;
-    background-color: rgb(239, 235, 100);
+    background-color: rgb(243, 235, 239);
 }
 
 .form-row input:not([type="submit"]):focus {
-    background-color: rgb(122, 77, 184);
+    background-color: rgb(231, 228, 235);
 }
 
 .form-row input[type="submit"] {
