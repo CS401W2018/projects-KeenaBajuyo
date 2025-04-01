@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #6a9fb5; 
+    background-color: #4987a2; 
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -80,6 +80,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 footer {
+    color: #4987a2; 
     text-align: center;
     padding: 10px 0;
     background-color: #6a9fb5; 
