@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <header><h1>Web Design</h1></header>
+    <main>
+        <form action="processing.html" method="get" id="myForm">
+            <fieldset>
+                <legend>Account Info</legend>
+                <div class="form-row">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
+                </div>
+                <div class="form-row">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+                </div>
+                <div class="form-row">
+                    <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" placeholder="Age" required>
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" value="keena1024@go.byuh.edu">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input type="password" name="password" id="pass" placeholder="Password">
+                </div>
+                <div class="form-row">
+                    <label for="pass2">Confirm Password:</label>
+                    <input type="password" name="password2" id="pass2" placeholder="Confirm Password">
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select name="state" id="state">
+                        <option value="blank">Select a state</option>
+                        <option value="CA">California</option>
+                        <option value="NV">Nevada</option>
+                        <option value="OR">Oregon</option>
+                        <option value="WA">Washington</option>
+                        <option value="HI" selected>Hawaii</option>
+                    </select>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer">Year in School</div>
+                    <label><input type="radio" name="year" value="freshman">Freshman</label>
+                    <label><input type="radio" name="year" value="sophomore" checked>Sophomore</label>
+                    <label><input type="radio" name="year" value="junior">Junior</label>
+                    <label><input type="radio" name="year" value="senior">Senior</label>
+                </div>
+                <div class="radio-row">
+                    <div class="form-spacer"></div>
+                    <label><input type="checkbox" name="agree" value="agree" id="agree" checked>Remember Me</label>   
+                </div>
+                <div class="form-row">
+                    <label for="comments">Comments:</label>
+                    <textarea name="comments" id="comments"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-spacer"></div>
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
+        <div id="response"></div> 
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; 2025 Keena Bajuyo</p>
+    </footer>
+    <script src="form.js"></script>
+</body>
+</html>
