@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Garamond&family=Georgia&family=Merriweather:wght@400;700&display=swap');
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: rgb(235, 212, 170);
+    line-height: 1.6;
+    background-image: url(bridge.png);
+}
+
+header {
+    font-family: 'Cinzel', serif;
+}
+
+nav {
+    font-family: 'Garamond', serif;
+}
+
+.content, .container {
+    font-family: 'Merriweather', serif;
+}
+
+footer {
+    font-family: 'Georgia', serif;
+}
+
+iframe {
+    width: 86%;
+    margin: 30px auto;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+    border: 14px solid #ccc;
+    display: block;
+    margin-left: 39px; 
+}
+
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    background-color: rgb(235, 227, 217);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background-image: url('Fort.png'); 
+    background-size: cover;
+    background-position: center; 
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    margin-top: 20px; 
+    font-family: Georgia, serif;
+    color: rgb(255, 255, 240);
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 5px;
+    background-color: rgb(19, 105, 35);
+    border-bottom: thin solid rgb(252, 250, 250);
+    text-align: center;
+    color: rgb(247, 245, 241);
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background-color: rgb(51, 0, 255);
+    color: rgb(192, 152, 208);
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.media-left {
+    width: 45%; 
+    padding: 20px;
+    font-size: 10pt;
+    text-align: center;
+    margin-right: 10px; 
+}
+
+.media-left video {
+    width: 100%;
+    height: auto;
+    border: 20px solid #ccc;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-top: -18px;
+}
+
+.additional-content {
+    width: 45%;
+    padding: 20px;
+    font-size: 10pt;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.media-right {
+    width: 50%; 
+    padding: 20px;
+    font-size: 10pt;
+    text-align: center;
+    margin-left: 10px; 
+    box-shadow: 10px;
+}
+
+.media-right video {
+    width: 80%;
+    height: auto;
+    border: 13px solid #ccc;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 80px;
+    
+}
+
+.media-right img {
+    width: 100%; 
+    height: auto; 
+    padding-right: 1px; 
+    border: 20px solid #ccc; 
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 70px; 
+    max-height: 400px; 
+}
+
+
+.media-right figure {
+    margin-bottom: 20px;
+}
+
+.media-right h2 {
+    margin-top: 20px; 
+    font-size: 22px; 
+    color: #333;
+}
+
+.container {
+    margin-top: 10px;
+}
+
+table.fortsantiago {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table.fortsantiago caption {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+table.fortsantiago th, table.fortsantiago td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table.fortsantiago th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+table.fortsantiago tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.fortsantiago tr:hover {
+    background-color: #ddd;
+}
+
+.clear {
+    clear: both;
+}   
+
+footer {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 240);
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h4, h5 {
+    background-color: rgb(180, 215, 223); 
+    border: 20px solid #ccc; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+
+.map img {
+    width: 50%; 
+    height: auto;
+    border: 5px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: -80%; 
+    height: auto; 
+    max-width: 200px; 
+    border: 5px solid #ccc;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-left: 39px; 
+    margin-top: 190px;
+}
+
+.moving {
+    position: fixed;
+    top: 350px;
+    right: 350px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.moving:hover {
+    transform: translateY(-10px); 
+}
+
+.moving img {
+    width: 200px; 
+    height: auto;
+    border: 5px solid #ccc;
+}
+
+.additional-content {
+    padding-top: 20px;
+    text-align: left;
+    position: relative; 
+    margin-top: -19px; 
+    font-family: 'Merriweather', serif; 
+    font-size: inherit; 
+    background-color: rgba(235, 227, 217, 0.8); 
+    padding: 10px;
+    float: right; 
+}
+
+
+.centered-text {
+    background-color: rgba(195, 195, 177, 0.3); 
+    padding: 1px;
+    border-radius: 5px; 
+    text-align: center; 
+    width: 80%; 
+    position: relative; 
+    top: 40px; 
+    margin-left: auto; 
+    margin-right: 0; 
+    right: -220px; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(19, 105, 35);
+    color: rgb(255, 255, 240);
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Georgia', serif;
+    font-size: 12pt;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.footer-container .footer-left {
+    flex: 1;
+    text-align: left;
+}
+
