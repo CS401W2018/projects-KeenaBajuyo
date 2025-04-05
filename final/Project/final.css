@@ -146,7 +146,7 @@ main {
     text-align: center;
     margin-left: auto; 
     margin-right: 0; 
-    box-shadow: 10px;
+    box-shadow: 13px;
     margin-top: 20px; 
     float: right; 
 }
@@ -155,7 +155,7 @@ main {
     width: 100%; 
     height: auto; 
     border: 20px solid #ccc; 
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 13px 5px 5px rgba(0, 0, 0, 0.5);
     margin-top: 500px; 
     max-height: 600px; 
 }
@@ -174,7 +174,7 @@ main {
     height: auto; 
     padding-right: 1px; 
     border: 20px solid #ccc; 
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 13px 5px 5px rgba(0, 0, 0, 0.5);
     margin-top: 30px; 
     max-height: 400px; 
 }
@@ -344,3 +344,12 @@ h4, h5 {
     margin-top: 70px;
 }
 
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 600px; 
+    display: block;
+    margin: 0 auto;
+    border: 15px solid #ccc;
+    box-shadow: 13px 5px 5px rgba(0, 0, 0, 0.5);
+}
