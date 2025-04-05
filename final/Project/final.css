@@ -121,11 +121,9 @@ main {
     padding: 20px;
     font-size: 10pt;
     text-align: left;
-    margin-left: -20px; /* Adjusted to move more to the left */
-    margin-top: -150px; /* Adjusted to move further up */
+    margin-left: -20px; 
+    margin-top: -150px; 
 }
-
-
 
 .content {
     width: 45%;
