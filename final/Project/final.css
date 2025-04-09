@@ -3,28 +3,33 @@ body {
     background-color: rgb(235, 212, 170);
     line-height: 1.6;
     background-image: url(bridge.png);
+    padding: 2px;
+    margin: 0; 
 }
 
 header {
     font-family: 'Cinzel', serif;
+    margin: 0; 
+    padding: 0; 
 }
 
 nav {
-    font-family: 'Garamond', serif;
+    font-family: 'Merriweather', serif;
+    background-color: rgb(94,72,30);
+    padding: 10px;
+    margin: 0; 
+    display: block; 
 }
+
 
 .blue
  {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Merriweather', serif;
     color: rgb(139, 184, 255);
 }
 
 .content, .container {
     font-family: 'Merriweather', serif;
-}
-
-footer {
-    font-family: 'Georgia', serif;
 }
 
 iframe {
@@ -53,7 +58,7 @@ header {
     padding: 20px;
     text-align: center;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Merriweather', serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
@@ -85,6 +90,7 @@ nav a {
     text-decoration: none;
     margin-right: 20px;
     text-transform: uppercase;
+    border-radius: 4px;
 }
 
 nav a:hover {
@@ -106,7 +112,7 @@ main {
 
 .media-left {
     width: 45%; 
-    padding: 05px;
+    padding: 5px;
     font-size: 10pt;
     text-align: center;
     margin-left: 0;  
@@ -245,13 +251,6 @@ table.fortsantiago tr:hover {
     clear: both;
 }   
 
-footer {
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(255, 255, 240);
-    text-shadow: 2px 2px 4px #000000;
-}
-
 h4, h5 {
     background-color: rgb(180, 215, 223); 
     border: 20px solid #ccc; 
@@ -273,23 +272,6 @@ h4, h5 {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     margin-left: 39px; 
     margin-top: 190px;
-}
-
-.moving {
-    position: fixed;
-    top: 350px;
-    right: 350px;
-    transition: transform 0.5s ease-in-out;
-}
-
-.moving:hover {
-    transform: translateY(-10px); 
-}
-
-.moving img {
-    width: 200px; 
-    height: auto;
-    border: 5px solid #ccc;
 }
 
 .additional-content {
@@ -410,6 +392,17 @@ legend {
 
 .form-row input:not([type="submit"]):focus, textarea:focus, select:focus {
     background-color: #8e8e5d; 
+}
+
+footer {
+    font-family: 'Merriweather', serif;
+    background-color: rgb(19, 105, 35);
+    color: rgb(255, 255, 240);
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    padding: 15px;
+    font-size: 12pt;
+
 }
 
 
