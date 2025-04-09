@@ -13,6 +13,12 @@ nav {
     font-family: 'Garamond', serif;
 }
 
+.blue
+ {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(139, 184, 255);
+}
+
 .content, .container {
     font-family: 'Merriweather', serif;
 }
@@ -23,9 +29,9 @@ footer {
 
 iframe {
     width: 100%;
-    margin: 30px auto;
+    margin: 20px auto;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
-    border: 20px solid #ccc;
+    border: 15px solid #ccc;
     display: block;
     margin-left: 2px; 
 }
@@ -100,20 +106,25 @@ main {
 
 .media-left {
     width: 45%; 
-    padding: 20px;
+    padding: 05px;
     font-size: 10pt;
     text-align: center;
-    margin-right: 10px; 
+    margin-left: 0;  
+    margin-right: auto;  
+    box-shadow: 35px;
+    margin-top: 1px; 
+    position: relative;  
 }
 
-.media-left video {
-    width: 115%;
-    height: auto;
-    border: 20px solid #ccc;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
-    margin-top: 13px;
-    margin-left: -1px; 
-    
+.media-left img {
+    width: 100%; 
+    height: auto; 
+    border: 20px solid #ccc; 
+    box-shadow: 13px 5px 5px rgba(0, 0, 0, 0.5);
+    margin-top: 0; 
+    max-height: 400px; 
+    position: relative;  
+    left: 0;  
 }
 
 .additional-content {
@@ -248,13 +259,6 @@ h4, h5 {
     border-radius: 5px; 
 }
 
-.map img {
-    width: 50%; 
-    height: auto;
-    border: 5px solid #ccc;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-}
-
 .image-container {
     display: flex;
     justify-content: center;
@@ -353,3 +357,59 @@ h4, h5 {
     border: 15px solid #ccc;
     box-shadow: 13px 5px 5px rgba(0, 0, 0, 0.5);
 }
+
+.styled-form {
+    background-color: rgb(237, 233, 214); 
+    padding: 15px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    width: 52%; 
+    font-size: 11pt;
+    text-align: center;
+    margin-left: 410px; 
+    margin-right: 0;
+    margin-top: -630px;
+    font-family: 'Merriweather', serif;
+}
+
+fieldset {
+    background-color: #d1c7b7; 
+    padding: 16px;
+    border-radius: 8px;
+}
+
+legend {
+    background-color: rgb(19, 105, 35);
+    color: #ffffff;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-row, .radio-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0;
+}
+
+.form-row label, .form-spacer {
+    width: 80px;
+    text-align: right;
+    color: #6a4f37; 
+}
+
+.form-row input:not([type="submit"]), textarea, select {
+    flex: 1;
+    padding: 9px; 
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px; 
+}
+
+.form-row input:not([type="submit"]):focus, textarea:focus, select:focus {
+    background-color: #8e8e5d; 
+}
+
+
