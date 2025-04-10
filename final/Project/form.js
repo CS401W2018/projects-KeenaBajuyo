@@ -23,12 +23,6 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         return;
     }
 
-    
-    if (!agree2) {
-        alert('You must agree to the terms and conditions.');
-        return;
-    }
-
     const formData = {
         firstname: firstname,
         lastname: lastname,
@@ -42,7 +36,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     console.log(formData);  
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'submit.json', true); 
+    xhr.open('GET', 'submit.json', true); 
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 
     xhr.onreadystatechange = function() {
@@ -53,7 +47,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
                 document.getElementById('myForm').reset(); 
                 alert('Form submitted successfully!');
             } else {
-                alert('Form submission failed: ' + xhr.statusText);
+                alert(' submission failed: ' + xhr.statusText);
             }
         }
     };
@@ -64,4 +58,5 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     xhr.send(JSON.stringify(formData)); 
 });
+
 
