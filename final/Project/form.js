@@ -7,9 +7,6 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const email = document.getElementById('email').value;
     const pass = document.getElementById('pass').value;
     const pass2 = document.getElementById('pass2').value;
-    const state = document.getElementById('state').value;
-    const agree = document.getElementById('agree').checked;
-    const comments = document.getElementById('comments').value;
 
     if (!firstname || !lastname || !email || !age) {
         alert('Please fill in all required fields.');
