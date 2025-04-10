@@ -78,7 +78,7 @@
                     </a>
                 </div>
             </aside>
-            <form id="myForm" action="processing.html" method="get" class="styled-form">
+            <form id="myForm" method="get" class="styled-form">
                 <fieldset>
                     <legend>Account Info</legend>
                     <div class="form-row">
@@ -130,10 +130,6 @@
                         <label for="age">Age:</label>
                         <input type="number" name="age" id="age" placeholder="Age">
                     </div>
-                    <div class="form-row">
-                        <label for="job">Job:</label>
-                        <input type="text" name="job" id="job" placeholder="Job">
-                    </div>
                     <div class="radio-row">
                         <div class="form-spacer"></div>
                         <label><input type="checkbox" name="agree" value="agree" id="agree2"> I agree to Terms and Conditions</label>   
@@ -146,14 +142,16 @@
                         <div class="form-spacer"></div>
                         <input type="submit" value="Submit">
                     </div>
+                    <div id="response" class="alert alert-info mt-3"></div>
                 </fieldset>
             </form>
-        </main>
-    </div>
-    <footer>&copy; 2025 Keena Bajuyo</footer>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="submit.js"></script>
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <script src="form.js"></script>
+        </div>
+        <footer>
+            <p>&copy; 2025 Keena Bajuyo</p>
+        </footer>
 </body>
 </html>
