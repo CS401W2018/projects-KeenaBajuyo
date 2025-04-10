@@ -5,7 +5,6 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     const lastname = document.getElementById('lastname').value;
     const age = document.getElementById('age').value;
     const email = document.getElementById('email').value;
-    const phone = document.getElementById('phone').value;
     const pass = document.getElementById('pass').value;
     const pass2 = document.getElementById('pass2').value;
     const state = document.getElementById('state').value;
@@ -32,7 +31,6 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         lastname: lastname,
         age: age,
         email: email,
-        phone: phone,
         password: pass,
         state: document.getElementById('state').value,
         agree: document.getElementById('agree').checked,
@@ -41,7 +39,7 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     console.log(formData);  
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', 'submit.json', true); 
+    xhr.open('POST', 'submit.json', true); 
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
 
     xhr.onreadystatechange = function() {
