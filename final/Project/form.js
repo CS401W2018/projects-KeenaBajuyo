@@ -23,6 +23,13 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         return;
     }
 
+    
+    if (!agree2) {
+        alert('You must agree to the terms and conditions.');
+        return;
+    }
+    
+
     const formData = {
         firstname: firstname,
         lastname: lastname,
@@ -58,3 +65,4 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     xhr.send(JSON.stringify(formData)); 
 });
+
