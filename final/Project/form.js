@@ -28,7 +28,6 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
         alert('You must agree to the terms and conditions.');
         return;
     }
-    
 
     const formData = {
         firstname: firstname,
@@ -65,14 +64,4 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
 
     xhr.send(JSON.stringify(formData)); 
 });
-
-document.getElementById('agree').addEventListener('change', function() {
-    const agree2 = document.getElementById('agree').checked;
-    if (agree2) {
-        document.getElementById('terms').style.display = 'none';
-    } else {
-        document.getElementById('terms').style.display = 'block';
-    }
-}
-);
 
