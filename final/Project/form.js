@@ -66,3 +66,13 @@ document.getElementById('myForm').addEventListener('submit', function(event) {
     xhr.send(JSON.stringify(formData)); 
 });
 
+document.getElementById('agree').addEventListener('change', function() {
+    const agree2 = document.getElementById('agree').checked;
+    if (agree2) {
+        document.getElementById('terms').style.display = 'none';
+    } else {
+        document.getElementById('terms').style.display = 'block';
+    }
+}
+);
+
