@@ -398,7 +398,6 @@ legend {
     text-align: center;
 }
 
-
 #myform {
     display: flex;
     flex-direction: column;
@@ -444,7 +443,6 @@ legend {
     display: block; 
     margin: 0 auto; 
 }
-
 
 footer {
     font-family: 'Merriweather', serif;
@@ -506,6 +504,35 @@ footer {
     .media-left img {
         width: 100%;
         height: auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-container .footer-left,
+    .footer-container .footer-right {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .carousel-image {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .form-row input:not([type="submit"]), 
+    .form-row select, 
+    .form-row textarea {
+        max-width: 100%;
+        padding: 8px;
+    }
+
+    .form-row input:not([type="submit"]):focus, 
+    textarea:focus, 
+    select:focus {
+        background-color: #8e8e5d;
     }
 }
 
