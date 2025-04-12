@@ -32,6 +32,14 @@ nav {
     font-family: 'Merriweather', serif;
 }
 
+.content-phrase {
+    font-family: 'Merriweather', serif;
+    color: rgb(9, 12, 16);
+    text-align: center;
+    font-size: 20px; 
+    border: 20px solid #ccc;
+}
+
 iframe {
     width: 100%;
     margin: 20px auto;
@@ -345,15 +353,12 @@ h4, h5 {
     padding: 15px; 
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
-    width: 52%; 
+    width: 75%; 
     font-size: 10pt;
     text-align: center;
-    margin: 0 auto; 
-    margin-top: -650px;
-    margin-left: 410px; 
+    margin: 20px auto; 
     font-family: 'Merriweather', serif;
 }
-
 
 fieldset {
     background-color: #d1c7b7; 
@@ -369,12 +374,21 @@ legend {
     font-size: 18px;
 }
 
+.carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .form-row, .radio-row {
     display: flex;
-    align-items: center;
-    gap: 8px;
-    margin: 8px 0;
+    flex-direction: column; 
+    align-items: center;    
+    margin: 12px 0;
+    text-align: center;
 }
+
 
 #myform {
     display: flex;
@@ -383,23 +397,45 @@ legend {
 }
 
 .form-row label, .form-spacer {
-    width: 80px;
-    text-align: right;
-    color: #6a4f37; 
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px; 
 }
 
 .form-row input:not([type="submit"]), textarea, select {
-    flex: 1;
-    padding: 9px; 
+    width: 100%;
+    max-width: 300px;
+    padding: 9px;
     border-radius: 5px;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 300px; 
 }
 
 .form-row input:not([type="submit"]):focus, textarea:focus, select:focus {
     background-color: #8e8e5d; 
 }
+
+.media-center {
+    width: 45%; 
+    padding: 5px;
+    font-size: 10pt;
+    text-align: center;
+    margin: 10px auto; 
+    box-shadow: 35px;
+    margin-top: 1px; 
+    position: relative;  
+}
+
+.media-center img {
+    width: 100%; 
+    height: auto; 
+    border: 20px solid #ccc; 
+    box-shadow: 13px 5px 5px rgba(0, 0, 0, 0.5);
+    max-height: 400px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
 
 footer {
     font-family: 'Merriweather', serif;
@@ -411,5 +447,174 @@ footer {
     font-size: 12pt;
 
 }
+@media only screen and (max-width: 900px) {
+    #wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    nav a {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        flex: 1 1 auto;
+        display: block;
+        text-align: center;
+        width: 100%; 
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .content, .media-left, .media-right, .additional-content {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .styled-form {
+        width: 100%;
+        margin-left: 0;
+        order: 2; 
+    }
+
+    table.fortsantiago {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .media-left img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        width: 100%;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+        padding-left: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    nav a {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 15px 0;
+        text-align: center;
+        background-color: rgb(19, 105, 35); 
+        color: white;
+        border-bottom: 1px solid white;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .content, .media-left, .media-right, .additional-content {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .styled-form {
+        width: 100%;
+        margin-left: 0;
+        order: 2; 
+    }
+
+    table.fortsantiago {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .media-left img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: stretch;
+        padding-left: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    nav a {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 15px 0;
+        text-align: center;
+            background-color: rgb(19, 105, 35); 
+            color: white;
+            border-bottom: 1px solid white;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .content, .media-left, .media-right, .additional-content {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .styled-form {
+        width: 100%;
+        margin-left: 0;
+        order: 2;
+    }
+
+    table.fortsantiago {
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .media-left img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
+
+@media print {
+    nav, footer {
+        display: none;
+    }
+}
+
+
+
 
 
