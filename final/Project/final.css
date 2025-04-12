@@ -334,6 +334,19 @@ h4, h5 {
     caption-side: top; 
 }
 
+.image-source {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.image-source a {
+    color: #666;
+    text-decoration: none;
+}
+.image-source a:hover {
+    text-decoration: underline;
+}
+
 .container {
     margin-top: 70px;
 }
